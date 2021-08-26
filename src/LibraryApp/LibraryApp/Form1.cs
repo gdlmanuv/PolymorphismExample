@@ -40,7 +40,7 @@ namespace LibraryApp
                 
             });
 
-            IEnumerable<Publication> t = PublicationService.GetPublicationByType("Comic");
+            List<Publication> t = PublicationService.GetPublicationByType("Comic").ToList();
 
             
         }
